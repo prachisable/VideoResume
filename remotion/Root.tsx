@@ -1,5 +1,7 @@
 import { Composition } from "remotion";
 import { Main } from "./MyComp/Main";
+import { Rings } from "./MyComp/Rings";
+import { TextFade } from "./MyComp/TextFade";
 import {
   COMP_NAME,
   defaultMyCompProps,
@@ -23,8 +25,41 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={defaultMyCompProps}
       />
       <Composition
+        id="Main"
+        component={Main}
+        durationInFrames={300}
+        fps={30}
+        width={140}
+        height={140}
+        defaultProps={{
+          outProgress: 0,
+        }}
+      />
+      <Composition
         id="NextLogo"
         component={NextLogo}
+        durationInFrames={300}
+        fps={30}
+        width={140}
+        height={140}
+        defaultProps={{
+          outProgress: 0,
+        }}
+      />
+      <Composition
+        id="Rings"
+        component={Rings}
+        durationInFrames={300}
+        fps={30}
+        width={140}
+        height={140}
+        defaultProps={{
+          outProgress: 0,
+        }}
+      />
+      <Composition
+        id="TextFade"
+        component={TextFade}
         durationInFrames={300}
         fps={30}
         width={140}
@@ -36,3 +71,6 @@ export const RemotionRoot: React.FC = () => {
     </>
   );
 };
+
+
+
