@@ -1,4 +1,4 @@
-// src/scenes/End.tsx
+// src/scenes/Skills.tsx
 import React from 'react';
 import {
     linearTiming,
@@ -6,10 +6,10 @@ import {
   } from "@remotion/transitions";
   import { wipe } from "@remotion/transitions/wipe";
 
-export const TextFade: React.FC = () => {
+export const Add: React.FC = () => {
     return (
         <div className="w-full h-full p-24 relative overflow-hidden block z-10
-        bg-[url('http://www.freeppt.net/background/professional_ppt_background_image.jpg')]
+        bg-[url('https://png.pngtree.com/thumb_back/fw800/background/20220312/pngtree-personal-development-career-image_1061886.jpg')]
         bg-cover bg-no-repeat bg-center
         before:content-['']
         before:absolute
@@ -20,7 +20,7 @@ export const TextFade: React.FC = () => {
         before:to-blue-500
         before:opacity-75
         before:z-[-5]">
-            <h1 className="text-black text-6xl p-3">Experience summary </h1>
+            <h1 className="text-black text-6xl p-3">Personal Profile:</h1>
             <ul style={{ fontSize: '3em', listStyle: 'none' }}>
                 <TransitionSeries >
                     <TransitionSeries.Transition
@@ -28,14 +28,23 @@ export const TextFade: React.FC = () => {
                         presentation={wipe()}
                     />
                     <TransitionSeries.Sequence durationInFrames={300} className=''>
-                    <li> Completed 1 month of internship in web development using HTML and 
-                    CSS</li>
-                    <li> Completed 5 month of internship in web development with Html, Css, 
-                    JavaScript. </li>
+                    <li>  Name : Prachi Sayaji Sable.  </li>
+                    <li>  Date of Birth : 04-April-2000.  </li>
+                    <li>Marital status : Unmarried.  </li>
+                    <li> Nationality : Indian. </li>
+                    <li> Languages Known : English, Marathi, Hindi. </li>
+                    <li> Address : Best Courter Room no 9, SV road, Santacruz (W), 400054. </li>
+                    <li> Permanent Address: At Sabalewadi, post. Umbraj, Tal. Karad, Dist. 
+                    Satara (415109).  </li>
+  
                     </TransitionSeries.Sequence>
                 </TransitionSeries>
             </ul>
         </div>
     );
 };
+
+
+
+
 
