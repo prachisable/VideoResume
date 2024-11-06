@@ -7,13 +7,14 @@ import { Link } from "./MyComp/Link";
 import { Add } from "./MyComp/Add";
 import { Dec } from "./MyComp/Dec";
 
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition
         id="Main"
         component={Main}
-        durationInFrames={300}
+        durationInFrames={250}
         fps={30}
         width={1980}
         height={1080}
@@ -23,7 +24,7 @@ export const RemotionRoot: React.FC = () => {
         }} 
       />
 
-<Composition
+      <Composition
         id="NextLogo"
         component={NextLogo}
         durationInFrames={300}

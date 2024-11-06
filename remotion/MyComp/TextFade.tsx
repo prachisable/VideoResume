@@ -20,7 +20,7 @@ export const TextFade: React.FC = () => {
         before:to-blue-500
         before:opacity-75
         before:z-[-5]">
-            <h1 className="text-black text-6xl p-3">Experience summary </h1>
+            <h1 className="text-black text-6xl p-3">Experience Summary: </h1>
             <ul style={{ fontSize: '3em', listStyle: 'none' }}>
                 <TransitionSeries >
                     <TransitionSeries.Transition
