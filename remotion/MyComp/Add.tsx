@@ -28,9 +28,9 @@ export const Add: React.FC = () => {
                         presentation={wipe()}
                     />
                     <TransitionSeries.Sequence durationInFrames={300} className=''>
-                    <li>  Name : Prachi Sayaji Sable.  </li>
-                    <li>  Date of Birth : 04-April-2000.  </li>
-                    <li>Marital status : Unmarried.  </li>
+                    <li> Name : Prachi Sayaji Sable.  </li>
+                    <li> Date of Birth : 04-April-2000.  </li>
+                    <li> Marital status : Unmarried.  </li>
                     <li> Nationality : Indian. </li>
                     <li> Languages Known : English, Marathi, Hindi. </li>
                     <li> Address : Best Courter Room no 9, SV road, Santacruz (W), 400054. </li>

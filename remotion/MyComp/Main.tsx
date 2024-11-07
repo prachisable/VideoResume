@@ -58,9 +58,7 @@ export const Main: React.FC<mainProps> = ({ name }) => {
       />
       <TransitionSeries.Sequence durationInFrames={100}>
       <div className="text-black-500 text-9xl bg-gradient-to-r from-orange-400 via-red-500 to-pink-5000 w-full h-full flex items-center justify-start min-h-screen">
-      <h1>I am  </h1>
-      &nbsp;
-         {name}
+      <h1>I am Prachi Sable</h1>
       </div> 
       </TransitionSeries.Sequence>
     </TransitionSeries>
